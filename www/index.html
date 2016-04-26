@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Lista de Viagem</title>
+    <link rel="stylesheet" href="icons/material.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+     <div    class="topo-fixo z-depth-1">
+    <div class="valign-wrapper blue  darken-2    white-text">
+            <h5 class="titulo">BagApp</h5>
+</div>
+
+</head>
+<body>
+	<ul class="tabs   blue  darken-2">
+		<li class="tab"><a href="#sapatos" class="white-text   waves-effect    waves-light">Sapatos</a></li>
+		<li class="tab"><a href="#roupas"  class="white-text   waves-effect    waves-light">Roupas</a></li>
+		<li class="tab"><a href="#higiene" class="white-text   waves-effect    waves-light">Higiene Pessoal</a></li>
+</ul>
+<div style="overflow: auto "> 
+<div id="sapatos"  class="section">
+        <div class="collection">
+                <a  class="collection-item "> Sapatilha</a>
+                <a  class="collection-item "> Tenis</a>
+                <a  class="collection-item"> Chinelo</a>
+                <a  class="collection-item">Sandalia</a>
+        </div>
+</div>
+</div>
+<div style="overflow: auto "> 
+<div id="roupas" class="section">
+        <div class="collection">
+                <a  class="collection-item">Blusa</a>
+                <a  class="collection-item">Saia</a>
+                <a  class="collection-item">Short</a>
+                <a  class="collection-item">Vestido</a>
+                <a  class="collection-item">Roupas Intimas</a>
+                <a  class="collection-item">Toalha</a>
+                <a  class="collection-item">Fronha</a>
+                <a  class="collection-item">Cobertor</a>
+                <a  class="collection-item">Lençol</a>
+        </div>
+</div>
+</div>
+<div style="overflow: auto "> 
+<div id="higiene" class="section">
+        <div class="collection">
+                <a  class="collection-item">Escova de Dente</a>
+                <a  class="collection-item">Pasta de Dente</a>
+                <a  class="collection-item">Shampoo e Condicionador</a>
+                <a  class="collection-item">Sabonete</a>
+                <a  class="collection-item">Desodorante</a>
+                <a  class="collection-item">Perfume</a>
+                <a  class="collection-item">Fio Dental</a>
+        </div>
+</div>
+</div>
+<div class="fixed-action-btn">
+              <a href="#confirmacao" id="confirmar"
+                class="btn-floating btn-large modal-trigger  waves-effect    waves-light blue">
+            <i class="material-icons">check</i>
+                </a>
+</div>
+<div    id="confirmacao" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                 <h5>Lista de itens para viagem</h5>
+                 <blockquote id="resumo"></blockquote>
+                </div>
+                <div class="modal-footer">
+                     <button 
+                        class="btn  deep-blue waves-effect    waves-blue modal-close">Confirmar
+                        </button>
+                         <button class="btn-flat waves-effect    waves-blue   modal-close">
+                            Cancelar
+                        </button>
+                </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+    <link   rel="stylesheet"    href="css/estilos.css">
+</body>
+</html>

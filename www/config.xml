@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="bagapp"
+        version="1.0.0">
+
+    <name>Bagapp</name>
+
+    <description>
+       Aplicativo de Listagem de objetos para viagem
+    </description>
+
+    <author email="larissahortencio10@gmail.com">
+       Larissa Hortencio de Souza
+    </author>
+
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <preference name="android-minSdkVersion" value="16" />
+    <gap:platform name="android" />
+
+    <icon src="imagens/icon.png" />
+    <splash src="imagens/splash.png" />
+    
+     <preference  name="DisallowOverscroll" value="true"/>
+
+</widget>
